@@ -1,0 +1,43 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    background-image: url("../images/pirates.jpg");
+    background-size: cover;
+    font-size: 39px;
+  }
+
+#endgame {
+    display: none;
+  }
+  
+#score {
+    display: none;
+  }
+
+h1 {
+    text-align: center;
+}
+
+#the-word {
+    margin: 4em;
+    text-align: center;
+  }
+  
+#the-word b {
+    visibility: hidden;
+  }
+  
+#the-word span {
+    display: inline-block;
+    border-bottom: solid black;
+    margin: 5px;
+    min-width: 1em;
+  }
+  
+#the-word span.yep b {
+    visibility: visible;
+  }
+  
+#the-word span.space {
+    border-bottom: 0;
+  }
